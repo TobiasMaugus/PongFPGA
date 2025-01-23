@@ -1,8 +1,8 @@
 module vga-sync
 (
-inputwire clk, reset,
-outputwire hsync , vsync , video-on, p-tick,
-outputwire [9:0] pixel-x, pixel-y
+input wire clk, reset,
+output wire hsync , vsync , video-on, p-tick,
+outpu wire [9:0] pixel-x, pixel-y
 );
 
 // c o n s t a n t d e c l a r a t i o n
